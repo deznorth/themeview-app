@@ -1,11 +1,21 @@
+@import './resources/vars/colors';
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+  background-color: $color-bg-default;
+  color: $color-fnt-default;
+  font-family: "Muli","Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@for $i from 1 through 6 {
+  h#{$i}{
+    font-family: 'Fredoka One', cursive, -apple-system, BlinkMacSystemFont;
+  }
 }
 
 code {

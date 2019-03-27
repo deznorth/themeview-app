@@ -1,0 +1,40 @@
+@import '../../../resources/vars/colors';
+
+.placeholder-page{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        text-align: center;
+        h1{
+            margin: 1rem;
+            color: $color-accent;
+            font-size: 4rem;
+        }
+        h2{
+            margin: 0;
+            font-family: 'Muli', sans-serif;
+            font-size: 2rem;
+        }
+
+        @media (max-width: 600px){
+            h1{ font-size: 3rem; }
+            h2{ font-size: 1.5rem; }
+        }
+    }
+
+    .gearsLoader:first-of-type{
+        transform: rotate(180deg);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .gearsLoader:last-of-type{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

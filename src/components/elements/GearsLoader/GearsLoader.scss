@@ -1,0 +1,33 @@
+.gearsLoader{
+	.smallGear{
+		animation-name: smallRotate;
+		animation-iteration-count: infinite;
+		transform-origin: 51px 129px;
+		animation-timing-function: linear;
+	}
+
+	.bigGear{
+		animation-name: bigRotate;
+		animation-iteration-count: infinite;
+		transform-origin: 163px 79px;
+		animation-timing-function: linear;
+	}
+}
+
+@keyframes smallRotate {
+	from {
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes bigRotate {
+	from {
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
