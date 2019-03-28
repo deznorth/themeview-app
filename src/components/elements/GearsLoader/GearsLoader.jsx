@@ -9,7 +9,7 @@ import './GearsLoader.scss';
 */
 const GearsLoader = props => {
   return (
-    <svg style={{width: props.width}} className="gearsLoader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 179.73">
+    <svg style={{width: props.width}} className="gearsLoader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 185">
     <title>Gears Spinning</title>
       <g id="Layer_2" data-name="Layer 2">
         <g id="Layer_1-2" data-name="Layer 1">
